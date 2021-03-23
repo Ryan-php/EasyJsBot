@@ -1,4 +1,4 @@
-# Déclaration des variables
+/* Déclaration des variables */
 const Discord = require('discord.js');
 const Client = new Discord.Client();
 const Logger = require('./utils/Logger.js');
