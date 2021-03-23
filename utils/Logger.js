@@ -1,5 +1,5 @@
 const Colors = require('colors')
-# npm install colors
+/* npm install colors */
 
 const Main = require('../index.js')
 
