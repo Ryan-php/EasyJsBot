@@ -1,33 +1,22 @@
 const Colors = require('colors')
 /* npm install colors */
+/* If you don't have the dependent Colors you can install with this command */
 
 const Main = require('../index.js')
 
-exports.error = (content) => {
+exports.ErrorLog = (content) => {
     content.split('\n').forEach(s => {
         console.log(`${'[X]'.red} ${s}`)
     })
 }
 
-exports.success = (content) => {
+exports.SuccessLog = (content) => {
     content.split('\n').forEach(s => {
         console.log(`${'[✓]'.green} ${s}`)
     })
 }
 
-exports.mod = (content) => {
-    content.split('\n').forEach(s => {
-        console.log(`${'[✓]'.green} ${s}`)
-    })
-}
-
-exports.loading = (content) => {
-    content.split('\n').forEach(s => {
-        console.log(`${'[?]'.yellow} ${s}`)
-    })
-}
-
-exports.loading = (content) => {
+exports.WaitLog = (content) => {
     content.split('\n').forEach(s => {
         console.log(`${'[...]'.black} ${s}`)
     })
