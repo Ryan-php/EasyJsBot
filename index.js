@@ -20,7 +20,7 @@ function loadCommand(path)  {
 
 		let jsfile = files.filter(f => f.split(".").pop() === "js")
 		if (jsfile.length <= 0) {
-			logger.error("Aucunes commandes trouvées dans " + path);
+			Logger.ErrorLog("Aucunes commandes trouvées dans " + path);
 			return;
 		}
 
