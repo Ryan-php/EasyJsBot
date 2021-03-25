@@ -6,6 +6,11 @@ const Logger = require('./utils/Logger.js');
 const Config = require('./utils/Config.json');
 const fs = require('fs');
 
+if(Config.MySQL == true){
+   const MySQL = require("mysql");
+   // TODO
+}
+
 exports.Prefix = Config.prefix;
 
 /* Commandes */
