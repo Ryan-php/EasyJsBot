@@ -1,10 +1,4 @@
 {
     "token": "YourTokenHere",
-    "prefix": "!",
-
-    "type": "mysql/sqlite",
-    "user":"",
-    "password": "",
-    "database": "",
-    "table": ""
+    "prefix": "!"
 }
