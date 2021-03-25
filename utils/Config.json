@@ -2,7 +2,7 @@
     "token": "YourTokenHere",
     "prefix": "!",
 
-    "mysql": false,
+    "type": "mysql/sqlite",
     "user":"",
     "password": "",
     "database": "",
