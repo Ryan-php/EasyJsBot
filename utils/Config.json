@@ -1,4 +1,10 @@
 {
     "token": "YourTokenHere",
-    "prefix": "!"
+    "prefix": "!",
+
+    "mysql": false,
+    "user":"",
+    "password": "",
+    "database": "",
+    "table": ""
 }
